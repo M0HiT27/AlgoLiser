@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.array {
+    margin: auto;
+    padding: 0 10px;
+    height: 550px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    background-color: grey;
+}
+
+.bar {
+    width: 5px;
+    background: linear-gradient(to right, #00AAFF, #00FF6C);
+}
+
+.inAction {
+    background: red;
+}
+
+label {
+    color: white;
+}
+
+.controlPanel {
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    background-color: black;
+}
